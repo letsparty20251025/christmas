@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聖誕「微醺」拍賣大會 | Christmas Tipsy Auction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Ma+Shan+Zheng&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-overlay"></div>
+    <div class="snow-container"></div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="聖誕「微醺」拍賣大會">聖誕「微醺」拍賣大會</h1>
+            <p class="subtitle">Christmas Micro-Tipsy Auction</p>
+            <div class="scroll-indicator">
+                <span>SCROLL TO DRINK</span>
+                <div class="arrow"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="card intro-card" id="core-concept">
+            <h2>1. 核心概念 <span class="en-title">Core Concept</span></h2>
+            <p>這不是一場比拼財力的拍賣，而是一場考驗<span class="highlight">「酒量」</span>與<span class="highlight">「膽量」</span>的博弈。</p>
+            <p>送禮者必須極力推銷自己的禮物以免「自罰」，而買家則需衡量這份禮物是否值得讓自己多喝幾杯。</p>
+        </section>
+
+        <section class="card props-card" id="props">
+            <h2>2. 準備道具 <span class="en-title">Preparation</span></h2>
+            <div class="prop-item">
+                <span class="icon">🎁</span>
+                <div class="details">
+                    <h3>精美包裝的禮物</h3>
+                    <p>建議預算 <strong>500 元</strong>。請務必妥善包裝，確保外觀<span class="warning">無法直接辨識內容物</span>。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="game-flow">
+            <h2 class="section-title">3. 遊戲流程 <span class="en-title">Game Flow</span></h2>
+
+            <div class="timeline">
+                
+                <!-- Round 1 -->
+                <div class="round-block">
+                    <div class="round-header">
+                        <h3>Round 1: 初試啼聲</h3>
+                    </div>
+                    
+                    <div class="step">
+                        <h4>Step 1: 商品上架與推銷 <span class="small-text">(The Pitch)</span></h4>
+                        <p>送禮者帶著包裝好的禮物上台。</p>
+                        <ul>
+                            <li><strong>限時 60 秒推銷</strong>：依據外觀給予「隱晦提示」（例：搖起來有聲音、適合晚上用）。</li>
+                            <li><span class="forbidden">嚴禁直接說出內容物！</span></li>
+                            <li>目標：講得越吸引人，台下越願意出價，送禮者就不用自罰。</li>
+                        </ul>
+                    </div>
+
+                    <div class="step">
+                        <h4>Step 2: 競價拍賣 <span class="small-text">(The Bidding)</span></h4>
+                        <ul>
+                            <li><strong>起標價：1 杯</strong>（基礎單位）。</li>
+                            <li>喊價：台下買家自由喊價，每次加價至少 <strong>+1 杯</strong>。</li>
+                        </ul>
+                        <div class="dialogue">
+                            <p>買家 A：「我出 1 杯！」</p>
+                            <p>買家 B：「這感覺是好東西，我出 3 杯！」</p>
+                            <p>買家 C：「老子今天沒開車，5 杯！」</p>
+                        </div>
+                        <p>結標：主持人倒數三次，喊價最高者得標。</p>
+                    </div>
+
+                    <div class="step">
+                        <h4>Step 3: 支付代價 <span class="small-text">(Payment)</span></h4>
+                        <p>得標者必須<strong>當場喝完</strong>喊價數量的酒，才能取走禮物並拆開展示。</p>
+                    </div>
+
+                    <div class="step penalty-step">
+                        <h4>Step 4: 流標懲罰 <span class="small-text">(The Penalty)</span></h4>
+                        <p>若主持人喊出「1 杯」起標後，台下鴉雀無聲：</p>
+                        <ul>
+                            <li>該禮物宣告<strong>流標</strong>。</li>
+                            <li><strong>送禮者懲罰</strong>：必須當場喝掉起標價（1 杯）。</li>
+                            <li>禮物暫時退回，進入「滯銷區」，等待第二輪。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Round 2 -->
+                <div class="round-block">
+                    <div class="round-header">
+                        <h3>Round 2: 滯銷清倉 <span class="small-text">(The Second Chance)</span></h3>
+                    </div>
+                    <p>當所有人都上台過一輪後，若還有禮物在「滯銷區」，進行第二輪拍賣。</p>
+                    
+                    <div class="rules-change">
+                        <h4>⚠️ 規則變更</h4>
+                        <ul>
+                            <li><strong>起標價加倍</strong>：從 <strong>2 杯</strong> 開始。</li>
+                            <li><strong>強制推銷</strong>：送禮者必須進行第二次推銷，限時 <strong>30 秒</strong>。(請賣力推銷！)</li>
+                        </ul>
+                    </div>
+
+                    <div class="step penalty-step">
+                        <h4>二度流標</h4>
+                        <p>如果還是沒人要買：</p>
+                        <ul>
+                            <li><strong>送禮者懲罰</strong>：喝掉起標價（2 杯）。</li>
+                            <li>結果：禮物無法退回，直接進入下一輪殊死戰。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Round 3+ -->
+                <div class="round-block death-match">
+                    <div class="round-header">
+                        <h3>Round 3 ~ N: 無限殊死戰 <span class="small-text">(The Sudden Death)</span></h3>
+                    </div>
+                    <p>若 Round 2 結束後仍有禮物流標，則進入無限循環，直到賣出為止。</p>
+                    
+                    <div class="rules-change">
+                        <h4>🔥 規則變更</h4>
+                        <ul>
+                            <li><strong>起標價隨回合數增加</strong>：
+                                <br>Round 3 起標價：<strong>3 杯</strong>
+                                <br>Round 4 起標價：<strong>4 杯</strong>... 由此類推。
+                            </li>
+                            <li><strong>強制推銷</strong>：必須再次上台。隨著回合增加，可以給出更明顯的提示。</li>
+                        </ul>
+                    </div>
+
+                    <div class="step penalty-step">
+                        <h4>☠️ 流標輪迴 (The Loop)</h4>
+                        <p>若在該回合再次流標：</p>
+                        <ul>
+                            <li><strong>送禮者懲罰</strong>：喝掉該回合起標價（N 杯）。</li>
+                            <li>結果：禮物無法退回，進入下一輪（Round N+1），起標價變為 N+1 杯。</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Christmas Tipsy Auction. Drink Responsibly.</p>
+        </footer>
+    </main>
+
+    <script>
+        // Simple script for snow effect or interactivity
+        document.addEventListener('DOMContentLoaded', () => {
+            const snowContainer = document.querySelector('.snow-container');
+            const createSnowflake = () => {
+                const snowflake = document.createElement('div');
+                snowflake.classList.add('snowflake');
+                snowflake.style.left = Math.random() * 100 + 'vw';
+                snowflake.style.animationDuration = Math.random() * 3 + 2 + 's';
+                snowflake.style.opacity = Math.random();
+                snowflake.innerText = '❄';
+                snowContainer.appendChild(snowflake);
+                setTimeout(() => {
+                    snowflake.remove();
+                }, 5000);
+            };
+            setInterval(createSnowflake, 200);
+        });
+    </script>
+</body>
+</html>
